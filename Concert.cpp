@@ -72,6 +72,7 @@ std::string Concert:: setConcertName(std::string concert){
     return concertName = concert;
 }
 
+//Acts as an "addFriend" but I wanted to keep syntax the same for set methods
 std::vector<std::string> Concert:: setFriend(std::string addFriend){
     friends.push_back(addFriend);
 
